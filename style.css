@@ -1,0 +1,1407 @@
+/*mobile styles*/
+body {
+    font-family: arial, sans-serif;
+    min-height: 100%;
+}
+
+/*header style*/
+nav {
+    float: right;
+    margin-top: -90px;
+   
+
+}
+#nav-bar ul li{
+    
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: right;
+    position: relative;
+    margin: 0 0 0 10px;
+    padding: 0;
+    cursor: pointer;
+     
+}
+.navi {
+    font-size: 13px;
+    margin-right: -11px;
+}
+ a{
+  text-decoration: none;
+}
+
+#nav-bar a {
+    color: #000000DE;
+    margin-right: 10px;
+}
+#nav-bar a:hover{
+    text-decoration: underline;
+    opacity: 0.85;
+} 
+
+.navi img{
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin: -15px 0;
+    cursor: pointer;
+}
+.navi img:hover{
+    opacity: 0.8;
+}
+.navi .sign-in{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    margin-right: 12px;
+    cursor: pointer;
+    
+    
+}
+.lang a:hover{
+    text-decoration: underline;
+    
+}
+
+/*google logo*/
+.google-img {
+    display: block;
+    padding: 109px;
+    height: 92px;
+    width: 272px;
+    text-align: center;
+    margin: 0 150px 0 -65px;
+    margin-top: 107px;
+   transform: translate(0px,0px);
+}
+
+/*search text-area*/
+section {
+    flex: 1;
+}
+.s-whole{
+    margin: -120px 0 0 0;
+}
+.s-icon{
+    width: 20px;
+    height: 20px;
+   position: absolute;
+    transform:translate(-129px, 14px);
+        opacity: 0.4;
+}
+.mic{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    transform:translate(273px, -35px);
+    cursor: pointer;
+    opacity: 0.8;
+}
+.s-box{
+    background-color: transparent;
+   margin: -130px 0px -300px 0px; 
+   font-size: 16px;
+    line-height: 34px;
+    height: 34px !important;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    appearance: textfield;
+    cursor: text;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    width: 280px;
+   
+}
+
+.s-box .s-input{
+    display: block;
+    border: 1px solid #ddd;
+    color: rgb(0,0,0,0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 90px;
+    border-radius: 25px;
+    width: 80%;
+    transition: box-shadow 100ms;
+    outline: none;
+}
+
+.s-btn{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+     line-height: 27px;
+     height: 36px;
+    transform: translate(20px, 0);
+     padding: 7px 7px 7px 7px;
+    margin:11px 0px 40px 3px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+      color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+     cursor: pointer;
+   
+ }
+
+.s-btn:hover{
+    border: 1px solid #aaa;
+}
+
+.lang{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    transform: translate(12px, 330px);
+    padding-right: 25px;
+    font-size: 13px;
+}
+.lang li{
+    list-style: underline;
+    margin: 0.5px;
+    font-size: 13px;
+}
+.lang li a {
+    margin-left: 5px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.lang li a:hover {
+    margin-left: 5px;
+    color: #1a0dab;
+   text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+    width: 150%;
+    background: #ddd;
+}
+footer p{
+    color:rgba(0,0,0,.54);
+}
+
+footer .row{
+   padding: 15px 25px; 
+    border: 1px solid rgba(0,0,0,0.05);
+}
+footer .row.row2{
+   display: flex;
+    justify-content: space-between;
+}
+footer .row.row2 ul{
+   display: content;
+    
+}
+footer .row.row2 ul li{
+  list-style: none;
+    
+}
+footer .row.row2 li a{
+  text-decoration: none;
+    font-size: 10px;
+    color: #5f6368;
+    margin-right: 25px;
+    
+}
+footer .row.row2 li a:hover{
+  text-decoration: underline;
+    
+    
+}
+footer .row.row2 ul:nth-child(2) li a {
+   text-decoration: none;
+    font-size: 10px;
+    color: #5f6368;
+    margin-right: 0;
+    margin-left: 25px;
+}
+footer .row.row2 ul:nth-child(2) li a:hover {
+   text-decoration: underline;
+   
+}
+
+@media screen and (min-width: 617px){
+    nav {
+    float: right;
+   
+
+}
+#nav-bar ul li{
+    
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: right;
+    position: relative;
+    margin: 0 0 0 10px;
+    padding: 0;
+    cursor: pointer;
+     
+}
+.navi {
+    font-size: 13px;
+    margin-right: -11px;
+}
+ a{
+  text-decoration: none;
+}
+
+#nav-bar a {
+    color: #000000DE;
+    margin-right: 10px;
+}
+#nav-bar a:hover{
+    text-decoration: underline;
+    opacity: 0.85;
+} 
+
+.navi img{
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin: -15px 0;
+    cursor: pointer;
+}
+.navi img:hover{
+    opacity: 0.8;
+}
+.navi .sign-in{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    margin-right: 12px;
+    cursor: pointer;
+    
+    
+}
+.lang a:hover{
+    text-decoration: underline;
+    
+}
+
+/*google logo*/
+.google-img {
+    display: block;
+    padding: 109px;
+    height: 92px;
+    width: 272px;
+    text-align: center;
+    margin: 0 150px 0 -65px;
+    margin-top: 107px;
+    transform: translate(150px,0px);
+}
+
+/*search text-area*/
+section {
+    flex: 1;
+}
+.s-whole{
+    margin: -120px 0 0 0;
+}
+.s-icon{
+    width: 20px;
+    height: 20px;
+   position: absolute;
+    transform: translate(-89px, 14px);
+        opacity: 0.6;
+    z-index: 30;
+}
+.mic{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    transform:translate(490px, -35px);
+    cursor: pointer;
+    opacity: 0.8;
+}
+.s-box{
+    background-color: transparent;
+   margin: -130px 0px -300px 0px; 
+   font-size: 16px;
+    line-height: 34px;
+    height: 34px !important;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    appearance: textfield;
+    cursor: text;
+    padding: 5px 8px 0 16px;
+    padding-left: 20px;
+    width: 290px;
+   
+}
+
+.s-box .s-input{
+    display: block;
+    border: 1px solid #ddd;
+    color: rgb(0,0,0,0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 90px;
+    border-radius: 25px;
+    width: 140%;
+    transition: box-shadow 100ms;
+    outline: none;
+    transform: translate(40px,0px);
+}
+
+.s-btn{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+     line-height: 27px;
+     height: 36px;
+    transform: translate(160px, 0);
+     padding: 7px 7px 7px 7px;
+    margin:11px 0px 40px 3px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+      color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+     cursor: pointer;
+   
+ }
+
+.s-btn:hover{
+    border: 1px solid #aaa;
+}
+
+.lang{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    transform: translate(120px, 330px);
+    padding-right: 25px;
+    font-size: 13px;
+}
+.lang li{
+    list-style: underline;
+    margin: 0.5px;
+    font-size: 13px;
+}
+.lang li a {
+    margin-left: 5px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.lang li a:hover {
+    margin-left: 5px;
+    color: #1a0dab;
+   text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+    width: 110%;
+    background: #ddd;
+}
+footer p{
+color:rgba(0,0,0,.54);
+
+}
+
+footer .row{
+   padding: 15px 25px; 
+    border: 1px solid rgba(0,0,0,0.05);
+}
+footer .row.row2{
+   display: flex;
+    justify-content: space-between;
+}
+footer .row.row2 ul{
+   display: contents;
+    
+}
+footer .row.row2 ul li{
+  list-style: none;
+    
+}
+footer .row.row2 li a{
+  text-decoration: none;
+    font-size: 12px;
+    color: #5f6368;
+    margin-right: 25px;
+    
+}
+   
+footer .row.row2 li a:hover{
+  text-decoration: underline;
+    
+    
+}
+footer .row.row2 ul:nth-child(2) li a {
+   text-decoration: none;
+    font-size: 12px;
+    color: #5f6368;
+    margin-right: 0;
+    margin-left: 25px;
+}
+footer .row.row2 ul:nth-child(2) li a:hover {
+   text-decoration: underline;
+   
+}
+
+}
+     
+}
+
+/*small tablet styles*/
+@media screen and (min-width: 620px){
+    /*header style*/
+nav {
+    float: right;
+   
+
+}
+#nav-bar ul li{
+    
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: right;
+    position: relative;
+    margin: 0 0 0 10px;
+    padding: 0;
+    cursor: pointer;
+     
+}
+.navi {
+    font-size: 13px;
+    margin-right: -11px;
+}
+ a{
+  text-decoration: none;
+}
+
+#nav-bar a {
+    color: #000000DE;
+    margin-right: 10px;
+}
+#nav-bar a:hover{
+    text-decoration: underline;
+    opacity: 0.85;
+} 
+
+.navi img{
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin: -15px 0;
+    cursor: pointer;
+}
+.navi img:hover{
+    opacity: 0.8;
+}
+.navi .sign-in{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    margin-right: 12px;
+    cursor: pointer;
+    
+    
+}
+.lang a:hover{
+    text-decoration: underline;
+    
+}
+
+/*google logo*/
+.google-img {
+    display: block;
+    padding: 109px;
+    height: 92px;
+    width: 272px;
+    text-align: center;
+    margin: 0 150px 0 -65px;
+    margin-top: 107px;
+    transform: translate(160px,0px);
+}
+
+/*search text-area*/
+section {
+    flex: 1;
+}
+.s-whole{
+    margin: -120px 0 0 0;
+}
+.s-icon{
+    width: 20px;
+    height: 20px;
+   position: absolute;
+    transform: translate(-65px, 10px);
+        opacity: 0.6;
+    z-index: 30;
+}
+.mic{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    transform:translate(490px, -35px);
+    cursor: pointer;
+    opacity: 0.8;
+}
+.s-box{
+    background-color: transparent;
+   margin: -130px 0px -300px 0px; 
+   font-size: 16px;
+    line-height: 34px;
+    height: 34px !important;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    appearance: textfield;
+    cursor: text;
+    padding: 5px 8px 0 16px;
+    padding-left: 20px;
+    width: 280px;
+   
+}
+
+.s-box .s-input{
+    display: block;
+    border: 1px solid #ddd;
+    color: rgb(0,0,0,0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 90px;
+    border-radius: 25px;
+    width: 140%;
+    transition: box-shadow 100ms;
+    outline: none;
+    transform: translate(50px,0px);
+}
+
+.s-btn{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+     line-height: 27px;
+     height: 36px;
+    transform: translate(155px, 0);
+     padding: 7px 7px 7px 7px;
+    margin:11px 0px 40px 3px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+      color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+     cursor: pointer;
+   
+ }
+
+.s-btn:hover{
+    border: 1px solid #aaa;
+}
+
+.lang{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    transform: translate(100px, 330px);
+    padding-right: 25px;
+    font-size: 13px;
+}
+.lang li{
+    list-style: underline;
+    margin: 0.5px;
+    font-size: 13px;
+}
+.lang li a {
+    margin-left: 5px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.lang li a:hover {
+    margin-left: 5px;
+    color: #1a0dab;
+   text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+    width: 110%;
+    background: #ddd;
+}
+footer p{
+color:rgba(0,0,0,.54);
+
+}
+
+footer .row{
+   padding: 15px 25px; 
+    border: 1px solid rgba(0,0,0,0.05);
+}
+footer .row.row2{
+   display: flex;
+    justify-content: space-between;
+}
+footer .row.row2 ul{
+   display: contents;
+    
+}
+footer .row.row2 ul li{
+  list-style: none;
+    
+}
+footer .row.row2 li a{
+  text-decoration: none;
+    font-size: 12px;
+    color: #5f6368;
+    margin-right: 25px;
+    
+}
+   
+footer .row.row2 li a:hover{
+  text-decoration: underline;
+    
+    
+}
+footer .row.row2 ul:nth-child(2) li a {
+   text-decoration: none;
+    font-size: 12px;
+    color: #5f6368;
+    margin-right: 0;
+    margin-left: 25px;
+}
+footer .row.row2 ul:nth-child(2) li a:hover {
+   text-decoration: underline;
+   
+}
+
+}
+     
+
+/* large tablets and laptops styles*/
+@media screen and (min-width: 960px){
+       /*header style*/
+nav {
+    float: right;
+   
+
+}
+#nav-bar ul li{
+    
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: right;
+    position: relative;
+    margin: 0 0 0 10px;
+    padding: 0;
+    cursor: pointer;
+     
+}
+.navi {
+    font-size: 13px;
+    margin-right: -11px;
+}
+ a{
+  text-decoration: none;
+}
+
+#nav-bar a {
+    color: #000000DE;
+    margin-right: 10px;
+}
+#nav-bar a:hover{
+    text-decoration: underline;
+    opacity: 0.85;
+} 
+
+.navi img{
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin: -15px 0;
+    cursor: pointer;
+}
+.navi img:hover{
+    opacity: 0.8;
+}
+.navi .sign-in{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    margin-right: 12px;
+    cursor: pointer;
+    
+    
+}
+.lang a:hover{
+    text-decoration: underline;
+    
+}
+
+/*google logo*/
+.google-img {
+    display: block;
+    padding: 109px;
+    height: 92px;
+    width: 272px;
+    text-align: center;
+    margin: 0 150px 0 100px;
+    margin-top: 107px;
+    transform: translate(230px,0px);
+}
+
+/*search text-area*/
+section {
+    flex: 1;
+}
+.s-whole{
+    margin: -120px 0 0 0;
+}
+.s-icon{
+    width: 20px;
+    height: 20px;
+   position: absolute;
+    transform: translate(-115px,13px);
+        opacity: 0.4;
+}
+.mic{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    transform:translate(580px, -35px);
+    cursor: pointer;
+    opacity: 0.8;
+}
+.s-box{
+    background-color: transparent;
+   margin: -130px 0px -300px 0px; 
+   font-size: 16px;
+    line-height: 34px;
+    height: 34px !important;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    appearance: textfield;
+    cursor: text;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    width: 300px;
+    transform: translate(200px,0);
+   
+}
+
+.s-box .s-input{
+    display: block;
+    border: 1px solid #ddd;
+    color: rgb(0,0,0,0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 90px;
+    border-radius: 25px;
+    width: 180%;
+    transition: box-shadow 100ms;
+    outline: none;
+    transform: translate(10px,0px);
+}
+
+.s-btn{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+     line-height: 27px;
+     height: 36px;
+    transform: translate(190px, 0);
+     padding: 7px 7px 7px 7px;
+    margin:11px 0px 40px 3px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+      color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+     cursor: pointer;
+   
+ }
+
+.s-btn:hover{
+    border: 1px solid #aaa;
+}
+
+.lang{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    transform: translate(340px, 330px);
+    padding-right: 25px;
+    font-size: 13px;
+    
+}
+.lang li{
+    list-style: underline;
+    margin: 0.5px;
+    font-size: 14px;
+}
+.lang li a {
+    margin-left: 5px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.lang li a:hover {
+    margin-left: 5px;
+    color: #1a0dab;
+   text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+    width: 100%;
+    background: #ddd;
+}
+footer p{
+color:rgba(0,0,0,.54);
+
+}
+
+footer .row{
+   padding: 15px 25px; 
+    border: 1px solid rgba(0,0,0,0.05);
+}
+footer .row.row2{
+   display: flex;
+    justify-content: space-between;
+}
+footer .row.row2 ul{
+   display: flex;
+   
+    
+}
+footer .row.row2 ul li{
+  list-style: none;
+    
+}
+footer .row.row2 li a{
+  text-decoration: none;
+    font-size: 12px;
+    color: #5f6368;
+    margin-right: 25px;
+    
+}
+   
+footer .row.row2 li a:hover{
+  text-decoration: underline;
+    
+    
+}
+footer .row.row2 ul:nth-child(2) li a {
+   text-decoration: none;
+    font-size: 12px;
+    color: #5f6368;
+    margin-right: 0;
+    margin-left: 25px;
+}
+footer .row.row2 ul:nth-child(2) li a:hover {
+   text-decoration: underline;
+   
+}
+
+}
+}
+    
+/* desktop styles1 */
+@media screen and (min-width: 1125px){
+     nav {
+    float: right;
+    margin-top: -90px;
+   
+
+}
+#nav-bar ul li{
+    
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: right;
+    position: relative;
+    margin: 0 0 0 10px;
+    padding: 0;
+    cursor: pointer;
+     
+}
+.navi {
+    font-size: 13px;
+    margin-right: -11px;
+}
+ a{
+  text-decoration: none;
+}
+
+#nav-bar a {
+    color: #000000DE;
+    margin-right: 10px;
+}
+#nav-bar a:hover{
+    text-decoration: underline;
+    opacity: 0.85;
+} 
+
+.navi img{
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin: -15px 0;
+    cursor: pointer;
+}
+.navi img:hover{
+    opacity: 0.8;
+}
+.navi .sign-in{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    margin-right: 12px;
+    cursor: pointer;
+    
+    
+}
+.lang a:hover{
+    text-decoration: underline;
+    
+}
+
+/*google logo*/
+.google-img {
+    display: block;
+    padding: 109px;
+    height: 92px;
+    width: 272px;
+    text-align: center;
+    margin: 0 150px 0 -70px;
+    margin-top: 107px;
+   transform: translate(350px,0px);
+}
+
+/*search text-area*/
+section {
+    flex: 1;
+}
+.s-whole{
+    margin: -120px 0 0 0;
+}
+.s-icon{
+    width: 20px;
+    height: 20px;
+   position: absolute;
+    transform:translate(1000px, 14px);
+        opacity: 0.4;
+}
+.mic{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    transform:translate(273px, -35px);
+    cursor: pointer;
+    opacity: 0.8;
+}
+.s-box{
+    background-color: transparent;
+   margin: -130px 0px -300px 0px; 
+   font-size: 16px;
+    line-height: 34px;
+    height: 34px !important;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    appearance: textfield;
+    cursor: text;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    width: 280px;
+   
+}
+
+.s-box .s-input{
+    display: block;
+    border: 1px solid #ddd;
+    color: rgb(0,0,0,0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 90px;
+    border-radius: 25px;
+    width: 80%;
+    transition: box-shadow 100ms;
+    outline: none;
+    transform: translate(120px, 0px);
+}
+
+.s-btn{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+     line-height: 27px;
+     height: 36px;
+    transform: translate(20px, 0);
+     padding: 7px 7px 7px 7px;
+    margin:11px 0px 40px 3px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+      color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+     cursor: pointer;
+   
+ }
+
+.s-btn:hover{
+    border: 1px solid #aaa;
+}
+
+.lang{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    transform: translate(12px, 330px);
+    padding-right: 25px;
+    font-size: 13px;
+}
+.lang li{
+    list-style: underline;
+    margin: 0.5px;
+    font-size: 14px;
+}
+.lang li a {
+    margin-left: 5px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.lang li a:hover {
+    margin-left: 5px;
+    color: #1a0dab;
+   text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+    width: 150%;
+    background: #ddd;
+}
+footer p{
+    color:rgba(0,0,0,.54);
+}
+
+footer .row{
+   padding: 15px 25px; 
+    border: 1px solid rgba(0,0,0,0.05);
+}
+footer .row.row2{
+   display: flex;
+    justify-content: space-between;
+}
+footer .row.row2 ul{
+   display: content;
+    
+}
+footer .row.row2 ul li{
+  list-style: none;
+    
+}
+footer .row.row2 li a{
+  text-decoration: none;
+    font-size: 10px;
+    color: #5f6368;
+    margin-right: 25px;
+    
+}
+footer .row.row2 li a:hover{
+  text-decoration: underline;
+    
+    
+}
+footer .row.row2 ul:nth-child(2) li a {
+   text-decoration: none;
+    font-size: 10px;
+    color: #5f6368;
+    margin-right: 0;
+    margin-left: 25px;
+}
+footer .row.row2 ul:nth-child(2) li a:hover {
+   text-decoration: underline;
+   
+}
+
+}
+ 
+}
+/* desktop styles */
+@media screen and (min-width: 1200px){
+    nav {
+    float: right;
+    margin-top: -90px;
+   
+
+}
+#nav-bar ul li{
+    
+    line-height: 24px;
+    list-style-type: none;
+    display: inline-flex;
+    text-align: right;
+    position: relative;
+    margin: 0 0 0 10px;
+    padding: 0;
+    cursor: pointer;
+     
+}
+.navi {
+    font-size: 13px;
+    margin-right: -11px;
+}
+ a{
+  text-decoration: none;
+}
+
+#nav-bar a {
+    color: #000000DE;
+    margin-right: 10px;
+}
+#nav-bar a:hover{
+    text-decoration: underline;
+    opacity: 0.85;
+} 
+
+.navi img{
+    width: 34px;
+    height: 34px;
+    padding: 5px;
+    margin: -15px 0;
+    cursor: pointer;
+}
+.navi img:hover{
+    opacity: 0.8;
+}
+.navi .sign-in{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    margin-right: 12px;
+    cursor: pointer;
+    
+    
+}
+.lang a:hover{
+    text-decoration: underline;
+    
+}
+
+/*google logo*/
+.google-img {
+    display: block;
+    padding: 109px;
+    height: 92px;
+    width: 272px;
+    text-align: center;
+    margin: 0 150px 0 -6p5x;
+    margin-top: 107px;
+   transform: translate(100px,0px);
+}
+
+/*search text-area*/
+section {
+    flex: 1;
+}
+.s-whole{
+    margin: -120px 0 0 0;
+}
+.s-icon{
+    width: 20px;
+    height: 20px;
+   position: absolute;
+    transform:translate(1000px, 14px);
+        opacity: 0.4;
+}
+.mic{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    transform:translate(273px, -35px);
+    cursor: pointer;
+    opacity: 0.8;
+}
+.s-box{
+    background-color: transparent;
+   margin: -130px 0px -300px 0px; 
+   font-size: 16px;
+    line-height: 34px;
+    height: 34px !important;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    appearance: textfield;
+    cursor: text;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    width: 300px;
+   
+}
+
+.s-box .s-input{
+    display: block;
+    border: 1px solid #ddd;
+    color: rgb(0,0,0,0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 90px;
+    border-radius: 25px;
+    width: 80%;
+    transition: box-shadow 100ms;
+    outline: none;
+    transform: translate(200px, 0px);
+}
+
+.s-btn{
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+     line-height: 27px;
+     height: 36px;
+    transform: translate(20px, 0);
+     padding: 7px 7px 7px 7px;
+    margin:11px 0px 40px 3px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+      color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+     cursor: pointer;
+   
+ }
+
+.s-btn:hover{
+    border: 1px solid #aaa;
+}
+
+.lang{
+    display: flex;
+    margin: 30px;
+    list-style: none;
+    transform: translate(12px, 330px);
+    padding-right: 25px;
+    font-size: 13px;
+}
+.lang li{
+    list-style: underline;
+    margin: 0.5px;
+    font-size: 14px;
+}
+.lang li a {
+    margin-left: 5px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.lang li a:hover {
+    margin-left: 5px;
+    color: #1a0dab;
+   text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: -400px;
+    left: 0;
+    width: 150%;
+    background: #ddd;
+}
+footer p{
+    color:rgba(0,0,0,.54);
+}
+
+footer .row{
+   padding: 15px 25px; 
+    border: 1px solid rgba(0,0,0,0.05);
+}
+footer .row.row2{
+   display: flex;
+    justify-content: space-between;
+}
+footer .row.row2 ul{
+   display: content;
+    
+}
+footer .row.row2 ul li{
+  list-style: none;
+    
+}
+footer .row.row2 li a{
+  text-decoration: none;
+    font-size: 10px;
+    color: #5f6368;
+    margin-right: 25px;
+    
+}
+footer .row.row2 li a:hover{
+  text-decoration: underline;
+    
+    
+}
+footer .row.row2 ul:nth-child(2) li a {
+   text-decoration: none;
+    font-size: 10px;
+    color: #5f6368;
+    margin-right: 0;
+    margin-left: 25px;
+}
+footer .row.row2 ul:nth-child(2) li a:hover {
+   text-decoration: underline;
+   
+}
+
+}
